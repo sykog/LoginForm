@@ -2,6 +2,7 @@ html
 head
 body
 script
+link
 h1
 h2
 h3
@@ -13,3 +14,8 @@ b
 i
 p
 form
+button
+textarea
+div
+span
+iframe
