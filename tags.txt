@@ -2,6 +2,7 @@ html
 head
 body
 script
+style
 link
 h1
 h2
@@ -9,6 +10,7 @@ h3
 h4
 h5
 h6
+br
 a
 b
 i
@@ -19,3 +21,4 @@ textarea
 div
 span
 iframe
+svg
