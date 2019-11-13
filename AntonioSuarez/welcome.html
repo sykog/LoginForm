@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Style sheets-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/main.css">
+
+    <!--Javascript-->
+    <script src="js/welcome.js"></script>
+</head>
+
+<body>
+
+<header class="header clearfix" id="mainHeader">
+    <a href="index.html"><h2>Log out</h2></a>
+</header>
+
+<div class="container">
+
+    <h1 id="giant-font" style="font-size: 150px; color: pink; text-shadow: #0b2e13 10px 10px 10px;">Welcome, Cool Guy!!!!!</h1>
+    <button id="rad" onclick="myMove()">CLICK HERE TO BE TOTALLY RADICAL!!!</button>
+    <div id="myAnimation"><label>COWABUNGA!!!</label></div>
+</div>
+</body>
+
+<style>
+    header#mainHeader {
+        display: flex;
+        flex-flow: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    header#mainHeader a {
+        padding: 10px 20px;
+    }
+
+    html, body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    body {
+        background: #00a1ff url("images/coolguy.jpg") repeat-x;
+    }
+
+    button#rad {
+        background-color: #44c767;
+        border-radius: 28px;
+        border: 1px solid #18ab29;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-size: 40px;
+        padding: 16px 31px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #2f6627;
+        position: absolute;
+        margin: 10px auto;
+        bottom: 0;
+    }
+
+    button#rad:hover {
+        background-color: #5cbf2a;
+    }
+
+    #myAnimation {
+        width: 500px;
+        position: absolute;
+        top: 20%;
+        left: 2000px;
+        z-index: 100;
+    }
+
+    #myAnimation label {
+        font-weight: bold;
+        font-size: 300px;
+        color: #80ff00;
+        text-shadow: 10px 10px 10px #fc40ff;
+    }
+</style>
+
+</html>

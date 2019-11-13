@@ -1,0 +1,40 @@
+body {
+    background-color: #abbfca;
+}
+
+header#mainHeader {
+    width: 100%;
+    background: #CDBCEE;
+    background: linear-gradient(135deg, #CDBCEE 0%, #2893e0 100%);
+    z-index: 10;
+    border-bottom: 3px solid #0070b1;
+}
+
+header#mainHeader a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+header#mainHeader a:hover {
+    color: #44c767;
+}
+
+button, input[type='submit'] {
+    background-color: #44c767;
+    border-radius: 20px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin: 10px auto;
+    bottom: 0;
+}
+
+button:hover, input[type='submit']:hover {
+    background-color: #5cbf2a;
+}
