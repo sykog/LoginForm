@@ -24,3 +24,4 @@ iframe
 svg
 canvas
 input
+hr
