@@ -3,16 +3,28 @@
     <head>
         <link href="css/register.css" rel="stylesheet">
         <style>
-            .hobbies {
+            div.hobbies {
                 display: table;
             }
-            .hobbies .hobby_item {
+            div.hobbies .hobby_item {
                 display: table-row;
             }
-            .hobbies label, .hobbies input {
+            div.hobbies label, div.hobbies input {
                 display: table-cell;
             }
-            .hobbies label {
+            div.hobbies label {
+                text-align: left;
+            }
+            div.genders {
+                display: table;
+            }
+            div.genders .gender_item {
+                display: table-row;
+            }
+            div.genders label, div.genders input {
+                display: table-cell;
+            }
+            div.genders label {
                 text-align: left;
             }
         </style>
@@ -32,7 +44,20 @@
             </div>
             <div class="form-item">
                 <p>Gender </p>
-                
+                <div class="genders">
+                    <div class="gender_item">
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="gender_item">
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="gender_item">
+                        <input type="radio" id="gender_unknown" name="gender">
+                        <label for="gender_unknown">N/A</label>
+                    </div>
+                </div>
             </div>
             <div class="form-item">
                 <label for="address">Address </label>
