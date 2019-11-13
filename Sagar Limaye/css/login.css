@@ -1,0 +1,17 @@
+html {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+form {
+    display: table;
+    margin: 0 auto;
+}
+form div {
+    display: table-row;
+    margin: 5px
+}
+form input, form label {
+    display: table-cell;
+}
+form input {
+    width: 150px;
+}
