@@ -31,3 +31,4 @@ fieldset
 legend
 ul
 li
+label
