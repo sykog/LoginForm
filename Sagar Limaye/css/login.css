@@ -4,14 +4,20 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 form {
     display: table;
     margin: 0 auto;
+    border-spacing: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(160,189,190,1) 0%, rgba(0,212,255,1) 96%);
+    border-radius: 25% 10%;
 }
-form div {
+form div, form h3 {
     display: table-row;
-    margin: 5px
 }
 form input, form label {
     display: table-cell;
 }
-form input {
+form label {
+    text-align: right;
+}
+form input[type="text"] {
     width: 150px;
 }
