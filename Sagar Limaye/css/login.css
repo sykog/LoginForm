@@ -18,6 +18,6 @@ form input, form label {
 form label {
     text-align: right;
 }
-form input {
+form input[type="text"] {
     width: 150px;
 }
