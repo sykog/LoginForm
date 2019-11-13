@@ -25,3 +25,9 @@ svg
 canvas
 input
 hr
+tr
+td
+fieldset
+legend
+ul
+li
