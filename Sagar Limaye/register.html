@@ -3,19 +3,22 @@
     <head>
         <link href="css/register.css" rel="stylesheet">
         <style>
-            div.hobby_list {
+            .hobbies {
                 display: table;
             }
-            div.hobby_list div.hobby_item {
+            .hobbies .hobby_item {
                 display: table-row;
             }
-            div.hobby_list label div.hobby_list input {
+            .hobbies label, .hobbies input {
                 display: table-cell;
+            }
+            .hobbies label {
+                text-align: left;
             }
         </style>
     </head>
     <body>
-        <form>
+        <form id="register-form" style="border:thin black solid">
             <div>
                 <h2>Personal Information</h2>
             </div>
@@ -56,7 +59,7 @@
             </div>
             <div class="form-item">
                 <label for="hobbies">Hobbies</label>
-                <div class="hobby_list">
+                <div class="hobbies">
                     <div class="hobby_item">
                         <input type="checkbox" id="swimming" name="swimming">
                         <label for="swimming">Swimming</label>
@@ -108,7 +111,7 @@
             </div>
             <div>
                 <button type="submit">Create account</button>
-                <button>Reset</button>
+                <button type="reset">Reset</button>
             </div>
             <div>
                 <a href="login.html">Back to login</a>

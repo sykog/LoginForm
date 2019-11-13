@@ -3,26 +3,27 @@
         <link href="css/login.css" rel="stylesheet">
     </head>
     <body>
-        <form>
-            <h3>Login</h3>
+        <form id="login-form" style="border: thin black solid;">
+            <h3 style="text-align: center;">Login</h3>
             <div>
                 <label for="user">User name </label>
-                <input id="user" required/>
+                <input id="user" name="user" required/>
             </div>
             <div>
                 <label for="password">Password </label>
-                <input id="password" minlength="8" maxlength="12" required/>
+                <input id="password" type="password" name="password" minlength="8" maxlength="12" required/>
             </div>
             <div>
                 <a href = "#">Forgot password</a>
             </div>
             <div>
-                <button>Login</button>
-                <button>Reset</button>
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
             </div>
             <div>
                 <a href="register.html">New user</a>
             </div>
         </form>
     </body>
+    <script src="js/main.js"></script>
 </html>

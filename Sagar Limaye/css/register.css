@@ -5,16 +5,21 @@ html {
 form {
     display: table;
     margin: 0 auto;
+    border-spacing: 15px;
+    background: rgb(158,190,162);
+    background: linear-gradient(90deg, rgba(158,190,162,1) 0%, rgba(199,234,126,1) 100%);
+    border-radius: 1% 1%;
 }
-form div {
+form div, form h2 {
     display: table-row;
 }
-form input, form label {
+form input, form label, form p {
     display: table-cell;
 }
-form label {
+form label, form p {
     padding-right: 25px;
+    text-align: right;
 }
-form input {
+form input[type="text"] {
     width: 150px;
 }
