@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="css/register.css" rel="stylesheet">
+        <link href="css/register.css" rel="stylesheet" type="text/css">
         <style>
             div.hobbies {
                 display: table;
@@ -128,11 +128,11 @@
             </div>
             <div class="form-item">
                 <label for="phone">Contact number (Enter area code also) </label>
-                <input id="phone"/>
+                <input id="phone" placeholder="+11231543252" pattern="\+?\d+/" minlength="10" maxlength="13">
             </div>
             <div class="form-item">
                 <label for="email">Email address </label>
-                <input id="email" type="email" pattern=".+@.+\.com" required/>
+                <input id="email" type="email" placeholder="emailid@sts.com" pattern=".+@sts\.com" required/>
             </div>
             <div>
                 <button type="submit">Create account</button>
